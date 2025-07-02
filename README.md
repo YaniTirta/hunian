@@ -5,12 +5,14 @@ It contains all the necessary configuration and some placeholder files to get yo
 
 ## Running the application
 
-Open the project in an IDE. You can download the [IntelliJ community edition](https://www.jetbrains.com/idea/download) if you do not have a suitable IDE already.
+Open the project in an IDE. You can download the [IntelliJ community edition](https://www.jetbrains.com/idea/download) or Eclipse latest version (https://www.elipse.com.br/en/downloads/) if you do not have a suitable IDE already.
 Once opened in the IDE, locate the `Application` class and run the main method using "Debug".
 
 For more information on installing in various IDEs, see [how to import Vaadin projects to different IDEs](https://vaadin.com/docs/latest/getting-started/import).
 
-If you install the Vaadin plugin for IntelliJ, you should instead launch the `Application` class using "Debug using HotswapAgent" to see updates in the Java code immediately reflected in the browser.
+If you install the Vaadin plugin for IntelliJ, you should instead launch the `Application` class using "Debug using HotswapAgent" to see updates in the Java code immediately reflected in the browser. In Eclipse there is nothing need to be changed, update in the Java code will immediately reflect the browser.
+
+This project is made for learning purpose as a tutorial to start a Java Spring Boot project using Vaadin.
 
 ## Deploying to Production
 
