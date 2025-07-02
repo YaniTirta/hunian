@@ -3,8 +3,10 @@ package com.cts.application.views;
 
 import com.cts.application.views.about.AboutView;
 import com.cts.application.views.checkoutform.CheckoutFormView;
+import com.cts.application.views.demo.LeafMapView;
 import com.cts.application.views.helloworld.HelloWorldView;
 import com.cts.application.views.imagegallery.ImageGalleryView;
+import com.cts.application.views.myview.CustomerView;
 import com.cts.application.views.myview.MyViewView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
@@ -117,6 +119,9 @@ public class MainLayout extends AppLayout {
                 new MenuItemInfo("My View", LineAwesomeIcon.PENCIL_RULER_SOLID.create(), MyViewView.class), //
 
                 new MenuItemInfo("Image Gallery", LineAwesomeIcon.ACCESSIBLE_ICON.create(), ImageGalleryView.class), //
+
+                new MenuItemInfo("Leaflet Map", LineAwesomeIcon.ACCESSIBLE_ICON.create(), LeafMapView.class), //
+                new MenuItemInfo("Customer View", LineAwesomeIcon.ACCESSIBLE_ICON.create(), CustomerView.class) //
 
         };
     }

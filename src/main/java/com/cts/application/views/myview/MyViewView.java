@@ -38,7 +38,7 @@ public class MyViewView extends Composite<VerticalLayout> {
         Button buttonPrimary = new Button();
         getContent().setWidth("100%");
         getContent().getStyle().set("flex-grow", "1");
-        layoutRow.addClassName(Gap.MEDIUM);
+        layoutRow.addClassName(Gap.LARGE);
         layoutRow.setWidth("100%");
         layoutRow.setHeight("min-content");
         layoutRow2.setHeightFull();
@@ -68,7 +68,7 @@ public class MyViewView extends Composite<VerticalLayout> {
         getContent().add(layoutRow3);
         layoutRow3.add(layoutColumn2);
         layoutColumn2.add(basicGrid);
-        layoutRow3.add(layoutColumn3);
+//        layoutRow3.add(layoutColumn3);
         layoutColumn3.add(textField);
         getContent().add(buttonPrimary);
     }
